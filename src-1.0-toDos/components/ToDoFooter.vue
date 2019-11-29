@@ -4,7 +4,7 @@
       <input type="checkbox" v-model="isAllCheck"/>
     </label>
     <span>
-          <!-- 已完成的数量，需要统计和计算出来，则需要计算属性     -->
+          <!-- 已完成的数量，根据列表的数组，计算出来，因此需要计算属性     -->
           <span>已完成{{completedNum}}</span> / 总数{{todos.length}}}
         </span>
     <button class="btn btn-danger" v-show="completedNum > 0"  @click="deleteCompleted">清除已完成任务</button>
