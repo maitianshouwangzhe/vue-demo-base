@@ -88,7 +88,7 @@
           }
       */
 
-       // 简化上面的代码
+       // 简化上面的代码，理解其思想。
        // 由于handler需要回调函数
        handler: storageUtil.saveToDos
       }
